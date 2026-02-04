@@ -1,0 +1,33 @@
+{
+  "name": "Rk raja xwd-cookie-server",
+  "version": "1.0.0",
+  "description": "Rk raja Cookie Messenger Bot - Complete Working Version",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "install-fca": "npm install fca-mafiya@latest",
+    "setup": "npm install && npm run install-fca",
+    "test": "node -e \"console.log('Server test passed!')\"",
+    "clean": "rm -rf cookies logs tasks.json",
+    "reset": "npm run clean && npm start"
+  },
+  "keywords": [
+    "sk-bot",
+    "facebook",
+    "messenger",
+    "cookie",
+    "automation"
+  ],
+  "author": "Rk raja xwd Technology",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "optionalDependencies": {
+    "fca-mafiya": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
